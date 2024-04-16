@@ -1,0 +1,264 @@
+@charset "UTF-8";
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body  {
+   
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(#949ef5 , #2c2f4b);
+    
+}
+
+
+
+header p{
+    padding: 10px ;
+    line-height: 2em;
+    
+}
+header h1{
+    padding-bottom: 20px ;
+    
+    
+}
+header {
+    background-image: linear-gradient(rgb(1, 1, 19) , blue);
+    color: white;
+    height: 150;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+}
+nav {
+    background-image: linear-gradient(to top ,rgb(1, 1, 19) , blue);/* Azul escuro */
+    color: #f0f8ff; /* Azul claro */
+    padding: 10px;
+    
+}
+main#paciente {
+    background-color: rgb(255, 255, 255);
+    min-width: 250px;
+    max-width: 413px;
+    height: 380px;
+    border-radius: 0px 0px 10px 10px;
+    padding: 20px;
+    margin: auto;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    min-width: 250px;
+    max-width: 1000px;
+    border-radius: 0px 0px 10px 10px;
+    padding: 20px;
+    margin: auto;
+}
+
+main h2{
+    padding: 5px;
+}
+
+#medico, #pagamento , #consulta{
+    height: 30px;
+}
+
+
+
+main .container{
+    margin: auto;
+    background-color: rgba(90, 93, 255, 0.781);
+    font-weight: bold;
+    padding: 0px 5px 0px 5px;
+    border: 2px solid black;
+    box-shadow: 3px 2px 2px rgb(54, 53, 53);
+    width: 400px;
+    height: 384px;
+    border-radius: 5px;
+    
+
+}
+
+form label:hover{
+    background-color: #000080;
+}
+
+button:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    background-color: darkgoldenrod;
+    font-weight: bold;
+    transition: .5s;
+
+}
+
+button{
+    border-radius: 10px;
+}
+
+form{
+    color: white;
+    font-weight: bold;
+}
+footer {
+    background-color: #1e90ff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    
+}
+
+main p {
+
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+margin: 10px;
+border-radius: 5px;
+font-weight: bold;
+}
+div p {
+text-indent: 20px;
+text-align: justify;
+font-size: 1.2em;
+font-family: Arial, Helvetica, sans-serif;
+padding-top: 15px;
+line-height: 2em;
+}
+h2{
+background-image: linear-gradient(to right, rgb(1, 1, 19) , blue, transparent )  ;
+color: white;
+padding: 1px;
+
+
+
+}
+main ul{
+
+margin-top: 10px;
+padding: 10px;
+margin-bottom: 10px;
+border-radius: 5px;
+
+}
+aside >h2 {
+border-radius: 10px 0px 0px 0px;
+}
+
+
+main ul li{
+
+
+text-align: justify;
+font-weight: bold;
+list-style-type: '\2714\0020\0020';
+list-style-position: inside;
+font-size: 18px;
+
+}
+aside p {
+font-weight: bolder;
+color: black;
+margin-left: 5px ;
+padding-left: 5px;
+
+padding: 0px 10px 5px 5px;
+}
+img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+picture p {
+    
+    margin-bottom: 10px;
+}
+nav a:hover{
+    text-decoration: none;
+    background-color: #1e90ff;
+    margin: 5px;
+    padding: 6px;
+    box-shadow: 10px;
+    font-weight: bold;
+    transition: .5s;
+}
+nav a:active{
+
+color: aqua;
+
+}
+
+aside{
+    background-color: #949ef5;
+    border-radius: 5px;
+}
+#endereco{
+    margin: 0px;
+    padding: 0%;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.container{
+    background-color: white;
+    margin-top: 20px;
+    width: 350px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.container h2{
+    background-color: #000080;
+    padding: 5px;
+    margin-left: -5px;
+    margin-right: -5px;
+    
+    
+}
+ input{
+    margin: auto;
+ }
+
+ input[type="date"] {
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: auto;
+    display: block;
+    margin-top: 21px;
+  }
+button{
+    height: 60px;
+    width: 200px;
+    color: rgb(0, 0, 0);
+    background-color: chartreuse;
+    font-weight: bold;
+    display: block;
+    margin: 10px auto;
+    text-align: justify;
+    text-align: center;
+    
+
+
+}
+
+div .form-group{
+
+    
+    font-size: 1em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+  

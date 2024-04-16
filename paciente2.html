@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Área do Paciente</title>
+</head>
+<body>
+  <div class="container">
+    <h2>Área do Paciente</h2>
+    <form action="/pagamento" method="post">
+      <div class="form-group">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="consulta">Tipo de Consulta:</label>
+        <select id="consulta" name="consulta">
+          <option value="rotina">Rotina</option>
+          <option value="urgente">Urgente</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="pagamento">Método de Pagamento:</label>
+        <select id="pagamento" name="pagamento">
+          <option value="cartao">Cartão de Crédito</option>
+          <option value="paypal">PayPal</option>
+        </select>
+      </div>
+      <button type="submit">Pagar e Agendar Consulta</button>
+    </form>
+  </div>
+
+  <!-- Aqui você precisará adicionar o script de integração com o serviço de pagamento escolhido -->
+
+</body>
+</html>
