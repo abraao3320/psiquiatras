@@ -195,10 +195,11 @@ aside{
     border-radius: 5px;
 }
 #endereco{
-    margin: 0px;
-    padding: 0%;
+    text-indent: 0px;
+    margin: 10px 0px 0px 0px;
+    padding-left: 5px;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 0.9em;
 }
 
 
