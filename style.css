@@ -186,11 +186,10 @@ picture p {
 nav a:hover{
     text-decoration: none;
     background-color: #1e90ff;
-    margin: 5px;
-    padding: 6px;
     box-shadow: 10px;
     font-weight: bold;
     transition: .5s;
+    border: 3px solid black;
 }
 nav a:active{
 
@@ -209,33 +208,21 @@ aside{
     font-size: 1.2em;
 }
 
-.container{
-    background-color: white;
-    margin-top: 20px;
-    width: 350px;
-    padding-bottom: 10px;
-    font-weight: bold;
-    font-size: 1.2em;
-}
+
 .container h2{
-    background-color: #000080;
-    padding: 5px;
     margin-left: -5px;
-    margin-right: -5px;
-    
-    
 }
- input{
-    margin: auto;
- }
+
+ 
 
  input[type="date"] {
     padding: 5px;
     font-size: 16px;
     font-weight: bold;
-    margin: auto;
+    text-align: center;
     display: block;
-    margin-top: 21px;
+    margin: 8px auto 0px auto;
+    
   }
 button{
     height: 60px;
@@ -264,5 +251,14 @@ picture{
     margin: auto;
     
 }
+
+
+
+  nav a {
+    border: 1px solid rgba(0, 0, 0, 0.514);
+    
+    padding: 10px;
+    display: inline-block;
+  }
 
   
