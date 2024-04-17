@@ -48,7 +48,7 @@ main#paciente {
     margin: auto;
 }
 
-main {
+main#principal1 {
     background-color: rgb(255, 255, 255);
     min-width: 250px;
     max-width: 1000px;
@@ -258,6 +258,59 @@ picture{
     
   }
 
-  
+  /*Configuração do login*/
+
+  body.pacientes{
+    background-image: url('imagens/principal.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+ 
+form#formL {
+    background-color: #4169e1; /* Azul escuro */
+    padding: 20px;
+    width: 300px;
+    margin: 100px auto;
+    border-radius: 10px;
+}
+input#nome1[type="text"], input#senha1[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    margin: auto;
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #f0f8ff; /* Azul claro */
+    color: #4169e1; /* Azul escuro */
+    cursor: pointer;
+}
+
+a#entrar{
+    margin: auto;
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #f0f8ff;
+    width: 15%;
+    text-decoration: none;
+
+}
+
+a#entrar:hover{
+    background-color: #1e90ff;
+    color: white;
+    
+}
+
+  a#entrar:active{
+    color: yellow;
+  }
  
   
