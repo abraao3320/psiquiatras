@@ -312,4 +312,10 @@ a#entrar:hover{
   a#entrar:active{
     color: yellow;
   }
+
+  #maps{
+    margin-top: 15px;
+    border: 1px solid black;
+    width: 300px;
+  }
  
