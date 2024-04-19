@@ -96,10 +96,16 @@ button:hover {
     
     background-color: rgb(43, 255, 0);
     font-weight: bold;
-    transition: .2s;
-    border: #1e90ff;
-    transition: 5;
+    border: #132538;
 
+    transition: .5s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.651);
+    transition: transform .5s;
+    transform: translate(-2px , -2px);
+
+}
+button:active{
+    
 }
 
 button{
