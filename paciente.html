@@ -22,19 +22,30 @@
     <main id="paciente">
         <div class="container">
             <h2 id="paciente">Área do Paciente</h2>
-            <form action="/pagamento" method="post">
+            <form id="pg" action="/pagamento" method="post">
               <div class="form-group">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
+                <label for="nome" >Nome:</label>
+                <input type="text" id="nome" name="nome" required placeholder="Nome" >
+                
               </div>
               <div class="form-group">
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" name="email" required placeholder="Email">
               </div>
               <div class="form-group">
                 <label for="senha">Senha:</label>
-                <input type="senha" id="senha" name="senha" required>
+                <input type="senha" id="senha" name="senha" required placeholder="Senha">
+
               </div>
+              <div class="form-group">
+                <label for="idata">Datas:</label>
+                <input type="date" name="data" id="idata">
+              </div>
+              <div id="hora">
+                <label for="ihora">Hórarios:</label>
+                <input type="time" name="hora" id="ihora">
+              </div>
+              
               <div class="form-group">
                 <label for="consulta">Tipo de Consulta:</label>
                 <select id="consulta" name="consulta">
@@ -42,6 +53,7 @@
                   <option value="urgente">Urgente</option>
                 </select>
               </div>
+              
               <div class="form-group">
                 <label for="consulta">Qual Médico:</label>
                 <select id="medico" name="Médico">
@@ -57,11 +69,11 @@
                   <option value="paypal">PayPal</option>
                   <option value="boleto">Boleto</option>
                   <option value="atendimento">No balcão da clinica</option>
-                  <form>
-                    <p><label for="dataEscolhida">Escolha uma data:</label></p>
-                    <input type="date" id="dataEscolhida" name="dataEscolhida">
-                  </form>
+     
                 </select>
+               
+
+                
               </div>
               <button type="submit">Finalizar e Agendar Consulta</button>
             </form>

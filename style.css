@@ -73,10 +73,17 @@ main .container{
     padding: 0px 5px 0px 5px;
     border: 2px solid black;
     box-shadow: 3px 2px 2px rgb(54, 53, 53);
-    height: 384px;
+    height: 520px;
     border-radius: 5px;
     
 
+}
+
+
+
+
+label{
+    display: inline-block;
 }
 
 form label:hover{
@@ -97,9 +104,13 @@ button{
     border-radius: 10px;
 }
 
-form{
-    color: white;
+form#pg{
+    color: rgb(255, 255, 255);
     font-weight: bold;
+    display: block;
+    text-shadow: 3px 3px 3px black ;
+    display: inline-block;
+    
 }
 footer {
     background-color: #1e90ff;
@@ -211,15 +222,18 @@ aside{
 }
 
  
+/*DATAS E HORAS INSERIDAS POR ULTIMO*/
 
- input[type="date"] {
-    padding: 5px;
-    font-size: 16px;
-    text-align: center;
+/*input[type="date"] , input[type="time"] {
+    
     display: block;
-    margin: 8px auto 0px auto;
+    width: 20%;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 120px;
     
   }
+  */
 button{
     height: 60px;
     width: 200px;
@@ -236,9 +250,6 @@ button{
 }
 
 div .form-group{
-
-    
-    
     margin-bottom: 10px;
     margin-top: 10px;
 }
@@ -318,4 +329,6 @@ a#entrar:hover{
     border: 1px solid black;
     width: 300px;
   }
+
+  
  
