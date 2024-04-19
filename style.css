@@ -10,6 +10,10 @@ body  {
    
     font-family: Arial, sans-serif;
     background-image: linear-gradient(to left , #949ef5 , #2c2f4b);
+    background-image: url('imagens/principal.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     
 }
 
@@ -340,4 +344,4 @@ a#entrar:hover{
   }
 
   
- 
+  
