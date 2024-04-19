@@ -73,8 +73,9 @@ main .container{
     padding: 0px 5px 0px 5px;
     border: 2px solid black;
     box-shadow: 3px 2px 2px rgb(54, 53, 53);
-    height: 520px;
+    height: 400px;
     border-radius: 5px;
+    display: inline-block;
     
 
 }
