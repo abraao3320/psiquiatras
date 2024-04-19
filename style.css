@@ -92,12 +92,13 @@ form label:hover{
 }
 
 button:hover {
-    color: #ffffff;
-    text-decoration: underline;
-    background-color: rgb(32, 25, 8);
+    color: #000000;
+    
+    background-color: rgb(43, 255, 0);
     font-weight: bold;
     transition: .2s;
     border: #1e90ff;
+    transition: 5;
 
 }
 
