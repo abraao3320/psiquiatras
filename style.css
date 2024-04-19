@@ -39,7 +39,7 @@ header {
 nav {
     background-image: linear-gradient(to top ,rgb(1, 1, 19) , blue);/* Azul escuro */
     color: #f0f8ff; /* Azul claro */
-    padding: 10px;
+    padding: 10px;text-shadow: 1px 1px 1px black;
     
 }
 main#paciente {
@@ -140,11 +140,13 @@ main p {
 }
 
 nav a {
-color: white;
+color: rgb(255, 255, 255);
 text-decoration: none;
 margin: 10px;
 border-radius: 5px;
 font-weight: bold;
+text-shadow: 1px 1px 1px black;
+
 }
 div p {
 text-indent: 20px;
@@ -198,10 +200,11 @@ picture p {
     margin-bottom: 10px;
 }
 nav a:hover{
-    text-decoration: underline;
-    background-color: #03000c;
+    
+    background-color: #000000b4;
     box-shadow: 10px;
     font-weight: bold;
+    text-shadow: 2px 2px 2px black;
     
 }
 
@@ -275,6 +278,9 @@ picture{
     background-image: linear-gradient(to bottom, rgba(0, 4, 255, 0.671), rgb(5, 147, 241) , transparent );
     padding: 10px;
     display: inline-block;
+
+    padding: 10px;
+    text-shadow: 1px 1px 1px black;
     
   }
 
