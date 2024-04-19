@@ -61,10 +61,10 @@ main h2{
     padding: 5px;
 }
 
-#medico, #pagamento , #consulta{
-    height: 30px;
-}
 
+#medico, #pagamento , #consulta{
+    height: 20px;
+}
 
 
 main .container{
