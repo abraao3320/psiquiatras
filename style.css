@@ -44,8 +44,10 @@ nav {
     
     background-image: linear-gradient( rgb(3, 3, 255), rgb(1, 1, 19) );
     color: #f0f8ff; /* Azul claro */
-    padding: 5px;
+    padding:5px;
     padding-top: 15px;
+
+    
     
    
     
@@ -344,8 +346,8 @@ a#entrar{
     width: 15%;
     text-decoration: none;
     color: black;
-    font-weight: bold;
-
+    font-weight: bold; 
+    
 }
 
 a#entrar:hover{
@@ -361,9 +363,10 @@ a#entrar:hover{
 
   #maps{
     margin-top: 15px;
-    width: 345px;
+    width: 340px;
     border: 1px solid black;
   }
 
+  
   
   
