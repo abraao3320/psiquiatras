@@ -42,19 +42,16 @@ header {
 }
 nav {
     
-    background-image: linear-gradient( rgb(3, 3, 255), rgb(1, 1, 19) );
-    color: #f0f8ff; /* Azul claro */
-    padding:5px;
-    padding-top: 15px;
+    background-image: linear-gradient( rgba(6, 6, 255, 0.918), rgba(10, 10, 117, 0.849) );
+    color: #0b76d3; 
+    padding: 20px 5px 5px 5px;
 
-    
-    
    
-    
     
 }
 main#paciente {
     
+    /*Tela de pagamento tamanho*/
     min-width: 250px;
     max-width: 350px;
     border-radius: 0px 0px 10px 10px;
