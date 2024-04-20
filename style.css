@@ -56,11 +56,11 @@ nav {
 main#paciente {
     
     min-width: 250px;
-    max-width: 413px;
-    height: 380px;
+    max-width: 350px;
     border-radius: 0px 0px 10px 10px;
     padding: 20px;
     margin: auto;
+    
 }
 
 main#principal1 {
@@ -87,13 +87,12 @@ main h2{
 main .container{
     /*Area do paciente menu de pagamento*/
     background-color: rgba(90, 93, 255, 0.781);
-    
     padding: 0px 5px 0px 5px;
     border: 2px solid black;
     box-shadow: 3px 2px 2px rgb(54, 53, 53);
-    height: 400px;
+    height: 380px;
     border-radius: 5px;
-    display: inline-block;
+    
     
 
 }
@@ -309,9 +308,13 @@ picture{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+
+    
   }
  
 form#formL {
+
+    /* Formulario da tela de login entrar */
     background-color: #4169e1; /* Azul escuro */
     padding: 20px;
     width: 300px;
