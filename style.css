@@ -345,8 +345,8 @@ a#entrar:hover{
 
   #maps{
     margin-top: 15px;
-    border: 1px solid black;
-    width: 350px;
+    box-shadow: 2px 2px 0px black;
+    width: 310px;
   }
 
   
