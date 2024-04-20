@@ -20,9 +20,10 @@ body  {
 
 
 header p{
-    padding: 5px ;
+    padding: 10px ;
     line-height: 2em;
     font-weight: bold;
+    
     
 }
 header h1{
@@ -44,6 +45,7 @@ nav {
     background-image: linear-gradient( rgb(3, 3, 255), rgb(1, 1, 19) );
     color: #f0f8ff; /* Azul claro */
     padding: 5px;
+    padding-top: 15px;
     
    
     
@@ -60,16 +62,18 @@ main#paciente {
 }
 
 main#principal1 {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(253, 241, 241);
     min-width: 250px;
     max-width: 1000px;
     border-radius: 0px 0px 10px 10px;
-    padding: 20px;
+    padding: 10px;
     margin: auto;
 }
 
 main h2{
     padding: 5px;
+    
+    
 }
 
 
@@ -79,8 +83,9 @@ main h2{
 
 
 main .container{
+    /*Area do paciente menu de pagamento*/
     background-color: rgba(90, 93, 255, 0.781);
-    font-weight: bold;
+    
     padding: 0px 5px 0px 5px;
     border: 2px solid black;
     box-shadow: 3px 2px 2px rgb(54, 53, 53);
@@ -149,10 +154,10 @@ main p {
 nav a {
 color: rgb(255, 255, 255);
 text-decoration: none;
-margin: 10px;
+padding-top: 5px;
 border-radius: 5px;
 font-weight: bold;
-text-shadow: 1px 1px 1px black;
+display: inline-block;
 
 }
 div p {
