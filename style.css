@@ -178,9 +178,9 @@ padding-top: 15px;
 line-height: 2em;
 }
 h2{
-background-image: linear-gradient(to right, rgb(1, 1, 19) , blue, transparent )  ;
-color: white;
-padding: 1px;
+background-image: linear-gradient(to right, rgb(8, 8, 192) , rgb(20, 20, 224), transparent )  ;
+color: rgb(255, 255, 255);
+padding: 1px; 
 
 }
 main ul{
