@@ -156,6 +156,8 @@ padding-top: 5px;
 border-radius: 5px;
 font-weight: bold;
 
+text-align: center;
+
 
 
 }
@@ -288,7 +290,6 @@ div .form-group{
     
     background-image: linear-gradient(to bottom, rgba(11, 15, 233, 0.671), rgb(5, 147, 241) , transparent );
     border: 1px solid black;
-   
     display: inline-block;
     height: 28px;
 
