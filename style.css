@@ -75,11 +75,11 @@ main h2{
     
 }
 
-
+/*
 #medico, #pagamento , #consulta{
     height: 20px;
 }
-
+*/
 
 main .container{
     /*Area do paciente menu de pagamento*/
@@ -288,14 +288,13 @@ picture{
 
 
   nav a {
-    border: 1px solid rgba(0, 0, 0, 0.514);
-    background-image: linear-gradient(to bottom, rgba(0, 4, 255, 0.671), rgb(5, 147, 241) , transparent );
-    padding: 10px;
-    display: inline-block;
-
-    padding: 10px;
-    text-shadow: 1px 1px 1px black;
     
+    background-image: linear-gradient(to bottom, rgba(11, 15, 233, 0.671), rgb(5, 147, 241) , transparent );
+    border: 1px solid black;
+   
+    display: inline-block;
+    height: 28px;
+
   }
 
   /*Configuração do login*/
@@ -364,7 +363,7 @@ a#entrar:hover{
   #maps{
     margin-top: 15px;
     width: 340px;
-    border: 1px solid black;
+    
   }
 
   
