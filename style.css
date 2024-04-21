@@ -154,16 +154,28 @@ main p {
 
 nav a {
 
-    /*menu de navegação area do paciente */
-color: rgb(255, 255, 255);
-text-decoration: none;
-padding-top: 11px;
-border-radius: 5px;
-font-weight: bold;
-text-align: center;
+    /*menu de navegação area do paciente  
+    nav a  */
 
 
+  color: white;
+  text-decoration: none;
+  
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
 
+  background-image: linear-gradient( rgb(37, 41, 247), rgb(62, 117, 219));
+  display: inline-block;
+    border: 1px solid black;
+    height: 25px;
+    margin-top: 5px;
+    padding: 11px 3px 0px 3px ;
+    border-radius: 5px;
+    text-shadow: 1px 1px 1px black;
+    
+
+  
 }
 
 
@@ -287,23 +299,7 @@ div .form-group{
 
 
 
-  nav a {
-    
-    background-image: linear-gradient(to bottom, rgba(11, 15, 233, 0.671), rgb(5, 147, 241) , transparent );
-    border: 1px solid black;
-    display: inline-block;
-    height: 25px;
-
-    padding-left: 4px;
-    padding-right: 5px;
-    margin-top: 10px;
-    border-radius: 5px;
-    background-color: #0e87f0;
-    text-shadow: 1px 1px 1px black;
-    margin-top: 5px;
-    
-
-  }
+  
 
   /*Configuração do login*/
 
