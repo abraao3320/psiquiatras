@@ -7,10 +7,8 @@
     padding: 0;
 }
 body  {
-   
-    font-family: Arial, sans-serif;
-    background-image: linear-gradient(to left , #949ef5 , #2c2f4b);
-    background-image: url('imagens/principal.png');
+   /*Tela principal*/
+    font-family: Arial, sans-serif; 
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -34,7 +32,7 @@ header h1{
     
 }
 header {
-    background-image: linear-gradient(rgba(1, 1, 19, 0.705) , rgb(3, 3, 255));
+    background-image: linear-gradient(rgba(1, 1, 19, 0.705) , rgb(59, 59, 236));
     color: white;
     height: 70px;
     text-align: center;
@@ -46,7 +44,7 @@ header {
 
 nav {
     
-    background-image: linear-gradient( rgba(6, 6, 255, 0.918), rgba(10, 10, 117, 0.849) );
+    background-image: linear-gradient( rgb(59, 59, 236), rgba(10, 10, 117, 0.849) );
     color: #0b76d3; 
     padding: 20px 5px 5px 5px;
 }
@@ -169,7 +167,7 @@ nav a {
   text-align: center;
 
   background-image: linear-gradient( rgb(37, 41, 247), rgb(62, 117, 219));
-  display: inline-block;
+    display: inline-block;
     border: 1px solid black;
     height: 25px;
     margin-top: 5px;
@@ -299,21 +297,6 @@ div .form-group{
 }
 
 
-
-
-
-  
-
-  /*Configuração do login*/
-
-  body.pacientes{
-    background-image: url('imagens/principal.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-
-    
-  }
  
 form#formL {
 
@@ -321,7 +304,10 @@ form#formL {
     background-color: #4169e1; /* Azul escuro */
     padding: 20px;
     width: 300px;
-    margin: 100px auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    position: absolute;
     border-radius: 10px;
     
 }
