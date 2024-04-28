@@ -110,7 +110,7 @@ form label:hover{
 }
 
 button:hover {
-    color: #000000;
+    color: #000000; 
     
     background-color: rgb(43, 255, 0);
     font-weight: bold;
@@ -125,7 +125,7 @@ button:hover {
 
 
 button{
-    border-radius: 10px;
+    border-radius: 10px; 
 }
 
 form#pg{
