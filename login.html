@@ -5,13 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />  
 </head>
 <body class="pacientes">
-    <form id="formL">
-        <input id="nome1" type="text" placeholder="Nome de usuário">
-        <input id="senha1" type="password" placeholder="Senha">
-
-        <a id="entrar" href="paciente.html" target="_self">Entrar</a>
+    <div id="logincerebro">
+        <img id="cerebro" src="imagens/cerebro-lampada.png" alt="cerebro logo">
+        <form id="formL">
+        
+            <div>
+                <span class="material-symbols-outlined">
+                    person
+                    </span>
+                <input id="nome1" type="text" placeholder="Nome de usuário">
+            </div>
+            <div>
+                <span class="material-symbols-outlined">
+                    vpn_key
+                    </span>
+                <input id="senha1" type="password" placeholder="Senha">
+        
+            </div>
+            <a class="entrar" href="paciente.html" target="_self">Entrar</a>
+            <a class="entrar" href="#">Esqueci a senha</a>
+    </div>
     </form>
 </body>
 </html>

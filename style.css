@@ -13,8 +13,11 @@ body  {
     background-size: cover;
     background-attachment: fixed;
     font-weight: bold;
+    background-color: #4e3abd;
     
 }
+
+
 
 header#apaciente{
     height: 3px;
@@ -294,8 +297,26 @@ button{
 div .form-group{
     margin-bottom: 10px;
     margin-top: 10px;
+   
 }
 
+
+#cerebro{
+    
+    display: block;
+    margin: auto;
+    margin-top: 115px;
+    width: 250px;
+
+}
+
+#logincerebro{
+
+    background-color: #949ef5;
+    width: 46%;
+    margin: auto;
+    border-radius: 10px;
+}
 
  
 form#formL {
@@ -303,19 +324,24 @@ form#formL {
     /* Formulario da tela de login entrar */
     background-color: #4169e1; /* Azul escuro */
     padding: 20px;
-    width: 300px;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50% , -50%);
+    width: 400px;
     position: absolute;
     border-radius: 10px;
+    left: 50%;
+    top: 55%;
+
+
+
+    transform: translate(-50% , -50%);
     
 }
 input#nome1[type="text"], input#senha1[type="password"] {
-    width: 90%;
+    width: 340px;
     padding: 10px;
     margin: 10px 0;
     border-radius: 5px;
+    position: relative;
+    
 }
 input[type="submit"] {
     margin: auto;
@@ -326,21 +352,26 @@ input[type="submit"] {
     background-color: #f0f8ff; /* Azul claro */
     color: #4169e1; /* Azul escuro */
     cursor: pointer;
+    font-size: 1em;
+    width: 100%;
 }
 
-a#entrar{
+a.entrar{
     margin: auto;
     display: block;
     padding: 10px;
     margin-top: 10px;
     border-radius: 5px;
     background-color: #f0f8ff;
-    width: 15%;
+    width: 200px;
     text-decoration: none;
     color: black;
     font-weight: bold; 
+    text-align: center;
     
 }
+
+
 
 a#entrar:hover{
     background-color: #1e90ff;
