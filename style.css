@@ -13,7 +13,7 @@ body  {
     background-size: cover;
     background-attachment: fixed;
     font-weight: bold;
-    background-color: #4e3abd;
+    background-color: #c5bdf5;
     
 }
 
@@ -305,17 +305,18 @@ div .form-group{
     
     display: block;
     margin: auto;
-    margin-top: 115px;
-    width: 250px;
+    margin-top: 245px;
+    
+    
 
 }
 
 #logincerebro{
 
-    background-color: #949ef5;
-    width: 46%;
+    background-color: #2032da;
+    width: 30%;
     margin: auto;
-    border-radius: 10px;
+   border-radius: 10px 10px 0px 0px;
 }
 
  
@@ -324,7 +325,7 @@ form#formL {
     /* Formulario da tela de login entrar */
     background-color: #4169e1; /* Azul escuro */
     padding: 20px;
-    width: 400px;
+    width: 250px;
     position: absolute;
     border-radius: 10px;
     left: 50%;
@@ -336,11 +337,11 @@ form#formL {
     
 }
 input#nome1[type="text"], input#senha1[type="password"] {
-    width: 340px;
     padding: 10px;
     margin: 10px 0;
     border-radius: 5px;
     position: relative;
+    
     
 }
 input[type="submit"] {
