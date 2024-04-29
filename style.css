@@ -313,10 +313,10 @@ div .form-group{
 
 #logincerebro{
 
-    background-color: #2032da;
+    background-color: #3f4aac;
     width: 30%;
     margin: auto;
-   border-radius: 10px 10px 0px 0px;
+     border-radius: 10px 10px 0px 0px;
 }
 
  
@@ -327,7 +327,7 @@ form#formL {
     padding: 20px;
     width: 250px;
     position: absolute;
-    border-radius: 10px;
+    border-radius: 0px 0px 10px 10px;
     left: 50%;
     top: 55%;
 
