@@ -312,6 +312,7 @@ span{
     text-align: center;
     font-size: 0.8em;
     margin-top: -20px;
+    color: white;
  }
 form#formL {
 
@@ -323,7 +324,7 @@ form#formL {
     position: absolute;
     border-radius: 10px ;
     border: 1px solid black;
-    background-image: url(imagens/predio.jpeg);
+    
     background-position: top, top;
 
     left: 50%;
