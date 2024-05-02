@@ -94,8 +94,9 @@ main .container{
     padding: 0px 5px 0px 5px;
     border: 2px solid black;
     box-shadow: 3px 2px 2px rgb(54, 53, 53);
-    height: 380px;
+    height: 340px;
     border-radius: 5px;
+    margin-top: 50px;
     
     
     
