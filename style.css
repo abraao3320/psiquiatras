@@ -297,6 +297,10 @@ body.pacientes{
 
     background-image: linear-gradient(to bottom, blue, white);
     
+    background-repeat: repeat;
+    background-size: cover;
+
+    
 }
 
 
