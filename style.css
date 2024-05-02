@@ -319,7 +319,7 @@ span{
     text-align: center;
     font-size: 0.8em;
     margin-top: -20px;
-    color: white;
+    color: rgb(255, 255, 255);
  }
 form#formL {
 
@@ -345,8 +345,20 @@ input#nome1[type="text"], input#senha1[type="password"] {
     border-radius: 5px;
     position: relative;
     width: 75%;
+    background-color: #b6b5b5;
+    color: white;
     
     
+}
+
+input[type="text"]:active{
+    background-color: #144cf5;
+    
+}
+input[type="password"]:active{
+    background-color: #1f52eb;
+      
+
 }
 input[type="submit"] {
     margin: auto;
@@ -354,7 +366,7 @@ input[type="submit"] {
     padding: 10px;
     margin-top: 10px;
     border-radius: 5px;
-    background-color: #f0f8ff; /* Azul claro */
+    background-color: #52a6f0; /* Azul claro */
     color: #4169e1; /* Azul escuro */
     cursor: pointer;
     font-size: 1em;
@@ -377,7 +389,7 @@ a.entrar{
 
 a.entrar:hover{
     transition: .5s;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.651);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
     transition: transform .5s;
     transform: translate(-2px , -3px);
 }
