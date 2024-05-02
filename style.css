@@ -317,7 +317,7 @@ span{
     line-height: normal;
     text-indent: 0%;
     text-align: center;
-    font-size: 0.8em;
+    font-size: 1em;
     margin-top: -20px;
     color: rgb(255, 255, 255);
  }
@@ -345,21 +345,21 @@ input#nome1[type="text"], input#senha1[type="password"] {
     border-radius: 5px;
     position: relative;
     width: 75%;
-    background-color: #b6b5b5;
+    background-color: #ffffff;
     color: white;
     
     
 }
 
-input[type="text"]:active{
-    background-color: #144cf5;
+form#formL input:focus-within{
+    background-color: #aec0f8;
     
 }
-input[type="password"]:active{
-    background-color: #1f52eb;
+
+    
       
 
-}
+
 input[type="submit"] {
     margin: auto;
     display: block;
