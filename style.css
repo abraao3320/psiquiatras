@@ -47,7 +47,7 @@ header {
 }
 
 nav {
-    
+    border: 1px solid rgba(0, 0, 0, 0.123);
     background-color: #0333c0;
     color: #0b76d3; 
     padding: 20px 5px 5px 5px;
