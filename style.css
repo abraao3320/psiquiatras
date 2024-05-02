@@ -92,7 +92,7 @@ main .container{
     /*Area do paciente menu de pagamento*/
     background-color: rgba(90, 93, 255, 0.781);
     padding: 0px 5px 0px 5px;
-    border: 2px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.507);
     box-shadow: 3px 2px 2px rgb(54, 53, 53);
     height: 340px;
     border-radius: 5px;
