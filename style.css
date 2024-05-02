@@ -295,25 +295,26 @@ div .form-group{
 
 body.pacientes{
 
-    background-image: url('imagens/principal.png');
+    background-image: linear-gradient(to bottom, blue, white);
+    background-image: url(imagens/predio.jpeg);
 }
 
 
-
+span{
+    color: white;
+}
  
 form#formL {
 
     /* Formulario da tela de login entrar */
-    background-color: #4169e1; /* Azul escuro */
+    background-color: #093ace; /* Azul escuro */
     padding: 20px;
-    width: 250px;
+    width: 300px;
+    height: 300px;
     position: absolute;
     border-radius: 10px ;
     left: 50%;
     top: 40%;
-    
-
-
 
     transform: translate(-50% , -50%);
     
@@ -323,7 +324,7 @@ input#nome1[type="text"], input#senha1[type="password"] {
     margin: 10px 0;
     border-radius: 5px;
     position: relative;
-    
+    width: 75%;
     
 }
 input[type="submit"] {
@@ -346,7 +347,6 @@ a.entrar{
     margin-top: 10px;
     border-radius: 5px;
     background-color: #f0f8ff;
-    width: 200px;
     text-decoration: none;
     color: black;
     font-weight: bold; 
