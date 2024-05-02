@@ -296,7 +296,7 @@ div .form-group{
 body.pacientes{
 
     background-image: linear-gradient(to bottom, blue, white);
-    background-image: url(imagens/predio.jpeg);
+    
 }
 
 
@@ -313,9 +313,12 @@ form#formL {
     height: 300px;
     position: absolute;
     border-radius: 10px ;
+    
+    background-image: url(imagens/predio.jpeg);
+    background-position: top, top;
+
     left: 50%;
     top: 40%;
-
     transform: translate(-50% , -50%);
     
 }
