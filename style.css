@@ -313,7 +313,7 @@ form#formL {
     height: 300px;
     position: absolute;
     border-radius: 10px ;
-    
+    border: 1px solid black;
     background-image: url(imagens/predio.jpeg);
     background-position: top, top;
 
@@ -354,7 +354,7 @@ a.entrar{
     color: black;
     font-weight: bold; 
     text-align: center;
-    
+    border: 1px solid black;
 }
 
 
